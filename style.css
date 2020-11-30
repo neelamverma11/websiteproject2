@@ -1,0 +1,203 @@
+body {
+    background-color: whitesmoke;
+    height: 100%;
+}
+#wholepage{
+    width: 100%;
+    margin: auto;
+    height: 500%;
+}
+.first{
+    display: inline-block;
+    width: 10%;
+}
+.second{
+    display: inline-block;
+    width: 10%;
+    float: right;
+    margin-bottom: 2px;
+}
+.mat1{
+    display: inline-block;
+    width: 10%;
+}
+.mat2{
+    width: 10%;
+    float: right;
+    margin-bottom: 2px; 
+}
+.containerA {
+    background-color: rgb(42, 28, 119);
+    text-align: right;
+    color: white;
+}
+.containerB {
+    background-color: rgb(68, 50, 172);
+    padding: 20px;
+    color: white;
+}
+.containerW {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+}
+.containerW >div {
+    background-color: rgba(228, 220, 220, 0.8);
+    padding: 10px 0;
+}
+.containerD {
+    background-color: rgb(235, 233, 243);
+    display: flex;
+}
+.item{
+    width:50x;
+    height: 20px;
+    background-color: rgb(68, 50, 172);
+}
+#item-1{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 10;
+    background-color: rgb(42, 28, 119);
+}
+#item-2{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 10;
+    background-color: rgb(42, 28, 119);
+}
+#item-3{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 1;
+    background-color: black;
+}
+#item-4{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 1;
+    background-color: rgb(8, 151, 247);
+}
+#item-5{
+    padding: 5px;
+    flex-grow: 18;
+    background-color: rgb(170, 182, 182);
+}
+#item-6{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 6;
+    background-color: rgb(42, 28, 119);
+
+}
+#item-7{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 6;
+    background-color: rgb(42, 28, 119);
+}
+#item-8{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 5;
+    background-color: rgb(42, 28, 119);
+}
+#item-9{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 0.5;
+    background-color:rgb(15, 14, 14);
+}
+#item-10{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 0.5;
+    background-color:black;
+}
+#item-11{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 0.5;
+    background-color: rgb(8, 151, 247);
+}
+#item-12{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 0.5;
+    background-color: rgb(131, 153, 153);
+}
+#item-13{
+    padding: 5px;
+    flex-grow: 6;
+    background-color: rgb(170, 182, 182);
+}
+#item-14{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 10;
+    background-color: rgb(42, 28, 119);
+}
+#item-15{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 11;
+    background-color: rgb(42, 28, 119);
+}
+#item-16{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 1;
+    background-color: rgb(8, 151, 247);
+}
+#item-17{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 1;
+    background-color: rgb(131, 153, 153);
+}
+#item-18{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 1;
+    background-color: rgb(131, 153, 153);
+}
+#item-19{
+    padding: 5px;
+    margin-right: 2px;
+    flex-grow: 1;
+    background-color: rgb(131, 153, 153);
+}
+#item-20{
+    padding: 5px;
+    flex-grow: 15;
+    background-color: rgb(170, 182, 182);
+}
+
+.containerF {
+    background-color: rgb(235, 233, 243);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+}
+.containerF >div {
+    background-color: rgb(68, 50, 172);
+    padding: 5px 0;
+}
+.containerH {
+    background-color: rgb(235, 233, 243);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 2px;
+    padding: 2px;
+}
+.containerH >div{
+    background-color: rgb(68, 50, 172);
+    padding: 5px 0;
+}
+.containerB >i{
+    text-align: right;
+}
+
